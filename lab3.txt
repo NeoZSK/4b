@@ -1,0 +1,38 @@
+> Zad 1 (15 min)
+1. Zaloguj się do dysku OneDrive
+2. Stwórz folder pp-nazwisko-imię-4b
+3. Udostępnij folder na maila oskar.legner@zsk.poznan.pl
+4. Wewnątrz utwórz podfolder z datą dzisiejszych zajęć: 13.09.2024
+5. Pod koniec każdych zajęć proszę o wrzucanie kodu pisanego na zajęciach do podfolderów z odpowiednimi datami zajęć
+
+
+
+
+
+> Live Coding (10-15 min)
+- Typ int, char i inne
+- reprezentacja typów w pamięci
+- Ify
+
+
+
+
+
+
+
+> Zad 2 (15 min) - Ascii guesser
+Napisz program, który:
+1. Pobierze od użytkownika literę
+2. Pobierze od użytkownika liczbę
+3. Wypisze kod ascii litery
+4. Sprawdzi, czy podana liczba jest kodem litery
+5. Jeśli tak -> Wypisze "Good job!"
+6. Jeśli nie -> Wypisze "Try again!"
+
+zad 3:
+1. Zmodyfikuj powyższy program
+2. Utwórz pętlę, która pozwoli użytkownikowi zgadywać wielokrotnie
+3. Wyświetlaj info, czy wartość docelowa jest mniejsza, czy większa
+4. Nie yświetlaj userowi poprawnej odpowiedzi przed odgadnięciem przez niego wartości. 
+
+
