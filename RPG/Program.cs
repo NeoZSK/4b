@@ -9,10 +9,36 @@ Position playerPos = new Position()
 
 char[,] map = new char[5, 10];
 
-FillBoard(map);
-Draw(map, playerPos);
+while (true)
+{
+    Console.Clear();
+    FillBoard(map);
+    Draw(map, playerPos);
+    Move(ref playerPos);
+}
 
 
+void Move(ref Position playerPos)
+{
+    var key = Console.ReadKey();
+
+    switch (key.Key)
+    {
+        case ConsoleKey.UpArrow:
+            playerPos.Y -= 1;
+            break;
+        case ConsoleKey.DownArrow:
+            playerPos.Y += 1;
+            break;
+        case ConsoleKey.LeftArrow:
+            playerPos.X -= 1;
+            break;
+        case ConsoleKey.RightArrow:
+            playerPos.X += 1;
+            break;
+    }
+
+}
 
 void FillBoard(char[,] board)
 {
