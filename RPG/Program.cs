@@ -1,4 +1,6 @@
 ﻿
+const string ROOT_DATA_PATH = @"C:\Users\User\Documents\data";
+const string MAP_PATH = ROOT_DATA_PATH + @"\map.txt";
 const char PLAYER = '*';
 const char WALL = '#';
 const char GROUND = '.';
@@ -11,12 +13,20 @@ Position playerPos = new Position()
 };
 
 
-char[,] map = new char[10, 5];
+char[,] map;
+//FillBoard(map);
+ImportBoard(out map);
+
+void ImportBoard(out char[,] map)
+{
+    string[] lines = File.ReadAllLines(MAP_PATH);
+    // TODO
+
+}
 
 while (true)
 {
     Console.Clear();
-    FillBoard(map);
     Draw(map, playerPos);
     Move(map, ref playerPos);
 }
@@ -105,3 +115,46 @@ struct Position
     public int X;
     public int Y;
 };
+
+
+
+
+
+
+
+
+
+////if (File.Exists(path))
+////{
+////    string fileText = File.ReadAllText(path);
+////    Console.WriteLine(fileText);
+////}
+
+
+//string[] lines = File.ReadAllLines(path);
+
+//int rowsCount = lines.Length;
+//int colsCount = lines[0].Length;
+
+//char[,] map = new char[rowsCount, colsCount];
+
+
+//for (int i = 0; i < rowsCount; i++)
+//{
+//    char[] elems = lines[i].ToCharArray();
+
+//    for (int j = 0; j < elems.Length; j++)
+//    {
+//        map[i, j] = elems[j];
+//    }
+
+//}
+
+//for (int i = 0; i < rowsCount; i++)
+//{
+//    for (int j = 0; j < colsCount; j++)
+//    {
+//        Console.Write(map[i, j]);
+//    }
+//    Console.WriteLine();
+//}
