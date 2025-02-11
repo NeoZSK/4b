@@ -1,7 +1,4 @@
-﻿
-using System.Runtime.CompilerServices;
-
-const string ROOT_DATA_PATH = @"C:\Users\User\Documents\data";
+﻿const string ROOT_DATA_PATH = @"C:\Users\User\Documents\data";
 const string MAP_PATH = ROOT_DATA_PATH + @"\map.txt";
 const char PLAYER = '*';
 const char WALL = '#';
@@ -18,6 +15,9 @@ Position playerPos = new Position()
 char[,] map;
 //FillBoard(map);
 ImportBoard(out map);
+
+// "" <- string
+// '' <- char
 
 void ImportBoard(out char[,] map)
 {
