@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "pickaxe",
+    "icon": "P"
+  },
+  {
+    "Type": "lever",
+    "icon": "L"
+  },
+  {
+    "Type": "door",
+    "icon": "-"
+  },
+  {
+    "Type": "wall",
+    "icon": "#"
+  }
+]
