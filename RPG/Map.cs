@@ -50,6 +50,13 @@ namespace RPG
 
                 }
             }
+
+            ImportTileItems();
+        }
+
+        private void ImportTileItems()
+        {
+            throw new NotImplementedException();
         }
 
         public char GetBoardTile(Position pos)
