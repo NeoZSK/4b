@@ -4,12 +4,13 @@
     {
         public string Type;
         private char Icon;
+        private Position Position;
 
-        public Item(string type, char icon)
+        public Item(string type, char icon, Position position)
         {
             Type = type;
             Icon = icon;
-
+            Position = position;
         }
 
         public char GetIcon()

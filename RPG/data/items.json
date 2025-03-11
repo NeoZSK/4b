@@ -1,18 +1,34 @@
 [
   {
     "Type": "pickaxe",
-    "icon": "P"
+    "icon": "P",
+    "coords": {
+      "X": 2,
+      "Y": 0
+    }
   },
   {
     "Type": "lever",
-    "icon": "L"
+    "icon": "L",
+    "coords": {
+      "X": 3,
+      "Y": 0
+    }
   },
   {
     "Type": "door",
-    "icon": "-"
+    "icon": "-",
+    "coords": {
+      "X": 4,
+      "Y": 0
+    }
   },
   {
     "Type": "wall",
-    "icon": "#"
+    "icon": "#",
+    "coords": {
+      "X": 5,
+      "Y": 0
+    }
   }
 ]
