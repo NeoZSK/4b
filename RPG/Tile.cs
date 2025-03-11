@@ -5,7 +5,7 @@ namespace RPG
     {
         private char GroundIcon;
         private Item Item;
-        
+
 
         public Tile(char ground)
         {
@@ -16,9 +16,9 @@ namespace RPG
 
         public char GetIcon()
         {
-            if (Item != null) 
-                    return Item.GetIcon();
-            else 
+            if (Item != null)
+                return Item.GetIcon();
+            else
                 return GroundIcon;
         }
 

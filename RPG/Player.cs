@@ -21,7 +21,17 @@
         }
 
 
-        public void AddToEq();
+        public void AddToEq ()
+        {
+            throw new NotImplementedException ();
+        }
+
+        public void ListEq()
+        {
+            throw new NotImplementedException ();
+        }
+
+
 
         public void Move()
         {

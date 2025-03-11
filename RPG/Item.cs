@@ -22,7 +22,7 @@
             switch (Type) {
 
                 case "item": EventPickup(p); break;
-                case "lever": EventOpenDoor(p); break;
+                case "lever": EventOpenDoor(); break;
             }
         }
         private void EventPickup(Player p)
